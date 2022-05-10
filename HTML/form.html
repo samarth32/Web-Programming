@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <title>Registration Form</title>
+    </head>
+    <body>
+        <form  method="get" align="center">
+            <fieldset>
+                <legend align="center">
+                    Sign Up
+                    <p>
+                        Username:<input type="text" name="uname" maxlength="20"/>
+                    </p>
+                    <p>
+                        Password:<input type="password" name="pass"/>
+                    </p>
+                    <p>
+                        Gender:<input type="radio" id="1" name="gender"/>Male 
+                            <input type="radio" id="2" name="gender"/>Female 
+                    </p>
+                    <p>
+                        Hobby:<input type="checkbox" id="1" name="hobby"/>Chess
+                            <input type="checkbox" id="2" name="hobby"/>Cycling
+                            <input type="checkbox" id="3" name="hobby"/>Other
+                    </p>
+                    <p>
+                        Address:<textarea rows="5" cols="15"></textarea>
+                    </p>
+                Select your state: <select>
+                        <option>--Select--</option>
+                        <optgroup label="India">
+                            <option>Gujarat</option>
+                            <option>Maharastra</option>
+                            <option>Madhya Pradesh</option>
+                            <option>Rajasthan</option>
+                        </optgroup>
+                    </select><br/>
+                    <input type="submit" value="Submit"/>
+                    <input type="reset" value="Click Me"/>
+                </legend>    
+            </fieldset>
+        </form>
+    </body>
+</html>
